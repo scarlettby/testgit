@@ -1,0 +1,1 @@
+$(document).ready(function(){ 	$('.upSlide, .downSlide').hover(		function(){			$(this).addClass('current_item'); 			$(this).find('.drop_menu').stop(true, true).slideDown(500);		},		function(){ 									$(this).find('.drop_menu').slideUp(50);//addClass('opened');			$(this).removeClass('current_item');		}	); })

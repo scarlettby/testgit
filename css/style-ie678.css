@@ -1,0 +1,101 @@
+/* Galery Viewer*/
+.left_nav_sublink2 ul {//margin-top: 2px !important;}
+.outer_part
+{
+    width: 543px !important;
+}
+.info_part {
+
+    /*caused IE box model : content width + padding + border*/
+    padding-top: 30px;
+}
+
+.info_part .link_colored {
+
+    top: -18px;
+}
+
+.acc_pointer {
+    /*margin: 16px 10px 0 0;*/
+}
+
+div#thumbs {
+    height: 266px;
+}
+
+.nav_buttons {
+    margin: -15px 0 0 0;
+}
+ul.thumbs li .border {
+    /*	width: 79px;
+        height: 54px
+    */
+}
+
+.h_tooltip.side {
+    top:-53px;
+    left:97%;
+}
+
+.border_bottom .inn_corn_br {
+    margin-top: 0px;
+}
+
+.tabbed-box .tabs {
+    width: 185px;
+}
+
+.tabbed-box.tabs li a{
+    border-bottom: none;
+}
+
+.tabbed-box .tab_hover {
+    height: 29x;
+}
+
+.info_part .features_list li.colored {
+    padding-bottom:5px;
+}
+
+.border_bottom {
+    width:203px !important;
+}
+.h_tooltip.side .tooltip_content{
+    overflow: visible;
+}
+
+.acc_part.bedroom .acc_types th h4, .acc_part.bedroom .acc_types p {
+    margin:0 5px 0 7px;
+}
+
+.h_tooltip .tooltip_content p, .acc_part.bedroom .acc_types .h_tooltip .tooltip_content p{
+    width: 100%;
+}
+
+.acc_types td.acc_info {
+    width: 0;
+}
+
+.acc_pointer {
+    margin: 13px 23px 0px 5px;
+}
+
+.tabs li a{
+    letter-spacing:-1px;
+}
+.link_to_details {
+    width: 185px;
+}
+.acc_part.bedroom .fade {
+    margin-left:8px;
+}
+.info_part .features_list li {
+    line-height:12px;
+}
+div.header_links a {
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#474d18, direction=135, strength=4);
+    zoom: 1;
+}
+div.left_nav_sublink {
+//margin-top: 0px;
+}

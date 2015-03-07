@@ -1,0 +1,7 @@
+/*ROUND CORNERS 6px 4*/
+.rounded_6px
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}

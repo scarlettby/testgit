@@ -1,0 +1,55 @@
+/*ROUND CORNERS 6px 4*/
+.some-class__cn_6px
+{
+    display: block;
+    font-size: 0px;
+
+    overflow: hidden;
+    position: absolute;
+    padding: 0;
+    width: 6px;
+    height: 6px;
+    z-index: 100;
+    line-height:0px;
+}
+/*T L R B one image*/
+.some-class__cn_6px {background: url('../images/CR-homepage/corners/1_corners_cr.png');}
+.some-class__cn_tl{top: 0; left: 0; background-position: left top !important;}
+.some-class__cn_tr{top: 0; right: 0; background-position: right top !important;}
+.some-class__cn_bl{bottom: 0; left: 0; background-position: left bottom !important;}
+.some-class__cn_br{bottom: 0; right: 0; background-position: right bottom !important;}
+
+.rounded_6px {
+    position: relative !important;
+    zoom: expression(runtimeStyle.zoom = 1, function( e )
+    {
+        if (e.rounded_6px) return;
+        e.insertBefore( document.createElement( 'i' ), e.firstChild ).className = 'some-class__cn_6px some-class__cn_br';
+        e.insertBefore( document.createElement( 'i' ), e.firstChild ).className = 'some-class__cn_6px some-class__cn_bl';
+        e.insertBefore( document.createElement( 'i' ), e.firstChild ).className = 'some-class__cn_6px some-class__cn_tr';
+        e.insertBefore( document.createElement( 'i' ), e.firstChild ).className = 'some-class__cn_6px some-class__cn_tl';
+        e.rounded_6px = true;
+    } ( this ) )}
+
+/*ROUND CORNERS 6px bottom 2*/
+.some-class__cn_6px_b
+{
+    display: block;
+    font-size: 1px;
+
+    overflow: hidden;
+    position: absolute;
+
+    width: 6px;
+    height: 6px;
+}
+.some-class__cn_6px_b {background: url('../images/CR-homepage/corners/1_corners_cr.png');}
+
+.rounded_6px_b {
+    zoom: expression(runtimeStyle.zoom = 1, function( e )
+    {
+        if (e.rounded_6px_b) return;
+        e.insertBefore( document.createElement( 'i' ), e.firstChild ).className = 'some-class__cn_6px_b some-class__cn_br';
+        e.insertBefore( document.createElement( 'i' ), e.firstChild ).className = 'some-class__cn_6px_b some-class__cn_bl';
+        e.rounded_6px_b = true;
+    } ( this ) )}

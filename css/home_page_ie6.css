@@ -1,0 +1,142 @@
+div.left_nav_block {
+    float: left;
+    width: 179px;
+    margin-left: 11px;
+    margin-right: 27px;
+    margin-top: 5px;
+}
+
+.txtLink {
+    margin-left: 5px;
+}
+div.head
+{
+    margin-left:30px;
+}
+
+div.header p {
+    margin: 0px;
+    padding: 12px 0px 0px 8px;
+}
+
+div.head_logo {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 53px 7px;
+    background-color: transparent;
+}
+
+div.header_mk_booking p {
+    padding-left: 12px;
+}
+
+div.inn_corn_bl {
+    float: left;
+    margin-left: 6px;
+    margin-top: -3px;
+    height: 3px;
+    width: 3px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+div.inn_corn_br {
+    float: right;
+    margin-right: 6px;
+    margin-top: -3px;
+    height: 3px;
+    width: 3px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+div.mkb_inn_corn_bl {
+    float: left;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 3px;
+    width: 3px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+div.mkb_inn_corn_br {
+    float: right;
+    margin-right: 6px;
+    margin-top: -10px;
+    height: 3px;
+    width: 3px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+div.header_links {
+    width: 792px;
+    height: 30px;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 23px;
+    padding-top: 7px;
+}
+
+p.header_dot_divider {
+    float: left;
+    margin: 0px 1px 0px 9px;
+    padding: 0px 0px 0px 0px;
+}
+
+a.view_res_link {
+    float: right;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-right: -2px;
+}
+
+div.mk_booking_inner {
+    border-left: 12px solid #946329;
+    border-right: 12px solid #946329;
+    border-bottom: 7px solid #946329;
+    background-color: #D9CDBB;;
+    padding: 8px 10px 6px 12px;
+}
+
+div.mkb_divider_div {
+    margin-top: 0px;
+    margin-bottom: 1px;
+    line-height: 13px;
+}
+
+.image_wrapper {
+    width: 300px;
+}
+
+ul.thumbs .image_big {
+    left: 17px;
+    top: 9px;
+}
+
+div#thumbs {
+    margin: 0 -20px 0 0;
+}
+.block .inner .txt {
+    padding: 0 0 0 9px;
+}
+
+div.thumbs_wrapper {
+    float: right;
+}
+
+.h_tooltip.side .tooltip_content img{
+    padding:0;
+    position:absolute;
+    top:-125px;
+    left:23px;
+}
+.acc_pointer {
+    margin: 16px 10px 0 0;
+}
+.acc_types td.acc_info {
+    width: none !important;
+}

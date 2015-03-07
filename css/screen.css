@@ -1,0 +1,385 @@
+/************************ Map Widget *******************/
+
+#map-widget-container
+{
+}
+
+.map-container
+{
+    font-size:80%;
+}
+
+    /*positioning for the venues*/
+    .map img#img-village0,
+    .map img#img-village0-active,
+    .map img#img-village1,
+    .map img#img-village1-active,
+    .map img#img-village2,
+    .map img#img-village2-active,
+    .map img#img-village3,
+    .map img#img-village3-active,
+    .map img#img-village4,
+    .map img#img-village4-active
+    {
+       /* _display:none; */
+    }
+    
+    .map #img-village0-div a,
+    .map #img-village0-active-div a,
+    .map #img-village1-div a,
+    .map #img-village1-active-div a,
+    .map #img-village2-div a,
+    .map #img-village2-active-div a,
+    .map #img-village3-div a,
+    .map #img-village3-active-div a,
+    .map #img-village4-div a,
+    .map #img-village4-active-div a
+    {
+        d_display:block;
+    }
+    
+    
+    .map #img-village0-div
+    {
+	position:absolute;	
+	top:101px;
+        left:205px;
+                f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-default.png',sizingMethod='scale');
+	width:18px;
+        height:18px;
+
+            }
+    
+    .map #img-village0-active-div
+    {
+        position:absolute;
+        top:90px;
+        left:52px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-whinfell.png',sizingMethod='scale');
+        width:23px;
+        height:23px;
+    }
+    
+    .map #img-village1-div
+    {
+        position:absolute;
+        top:135px;
+        left:85px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-default.png',sizingMethod='scale');
+        width:18px;
+        height:18px;
+    }
+    
+    .map #img-village1-active-div
+    {
+        position:absolute;
+        top:125px;
+        left:75px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-sherwood.png',sizingMethod='scale');
+        width:23px;
+        height:23px;
+    }
+    
+    .map #img-village2-div
+    {
+        position:absolute;
+        top:175px;
+        left:60px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-default.png',sizingMethod='scale');
+        width:18px;
+        height:18px;
+    }
+    
+    .map #img-village2-active-div
+    {
+        position:absolute;
+        top:165px;
+        left:50px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-longleat.png',sizingMethod='scale');
+        width:23px;
+        height:23px;
+    }
+    
+    .map #img-village3-div
+    {
+        position:absolute;
+        top:150px;
+        left:118px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-default.png',sizingMethod='scale');
+        width:18px;
+        height:18px;
+    }
+    
+    .map #img-village3-active-div
+    {
+        position:absolute;
+        top:140px;
+        left:108px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-elveden.png',sizingMethod='scale');
+        width:23px;
+        height:23px;
+    }
+    
+    .map #img-village3-div
+    {
+        position:absolute;
+        top:150px;
+        left:118px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-default.png',sizingMethod='scale');
+        width:18px;
+        height:18px;
+    }
+    
+    .map #img-village4-div
+    {
+        position:absolute;
+        top:150px;
+        left:118px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-default.png',sizingMethod='scale');
+        width:18px;
+        height:18px;
+    }
+    
+    .map #img-village4-active-div
+    {
+        position:absolute;
+        top:140px;
+        left:108px;
+        f__filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/branch-elveden.png',sizingMethod='scale');
+        width:23px;
+        height:23px;
+    }
+    
+    /*individual colours for the active links*/
+    .map-container ul li#link-village4.active a
+    {
+        color:#A09380;
+    }
+    
+    .map-container ul li#link-village0.active a
+    {
+        color:#b73513;
+    }
+    
+    .map-container ul li#link-village1.active a
+    {
+        color:#A7B36B;
+    }
+    
+    .map-container ul li#link-village2.active a
+    {
+       /* color:#D19258;  */
+	color:#ba3411;
+    }
+
+/******* map end *****/
+
+
+.map-box
+
+{
+        border: 1px solid red;
+        margin-right:30px;
+	width:159px;
+        width:100px;
+        height:100px;
+}
+
+
+
+.map-box-top
+
+{
+	width:159px;
+	height:9px;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/map-box-top.png',sizingMethod='scale');
+	font-size:1px;
+}
+
+
+
+.map-box-bottom
+
+{
+
+	width:159px;
+	height:8px;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/b2b/images/map-box-bottom.png',sizingMethod='scale');
+	font-size:1px;
+
+}
+
+
+
+.map-box img
+
+{
+
+	display:block;
+
+}
+
+
+
+.map-box span.more-info
+
+{
+
+	width:95%;
+
+	display:block;
+
+	text-align:right;
+
+}
+
+
+
+.map-box span.more-info a,
+
+.map-box span.more-info a:visited
+
+{
+
+	
+	text-decoration:none;
+
+	background-repeat:no-repeat;
+
+	background-position:right;
+
+	padding-right:10px;
+
+	padding-top:5px;
+
+	padding-bottom:3px;
+
+	display:block;
+
+}
+
+
+
+.map-box span.more-info a:hover
+
+{
+
+	color:#7D7263;
+
+	text-decoration:underline;
+
+}
+
+
+
+.map-container ul
+{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+    display:block;
+    
+}
+
+   
+
+
+#map-content-container
+{
+    height:150px;
+    overflow:hidden;
+    width: 155px;
+    margin-bottom: 4px;
+}
+
+*>#map-content-container
+{
+    margin-bottom: 4px;
+}
+
+#map-content-container p
+{
+	padding-top:0px;
+	margin-top:9px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+.map-content
+{
+    width:141px;
+    margin:0px 5px 5px 5px;
+    background-color:#EBEAE8;
+    background-repeat:repeat-x;
+    background-position:top left;
+    padding:0px 5px 5px 5px;
+    height:150px;
+    font-family:Verdana;
+    font-size:11px;
+    color:#666666;
+}
+
+div.map-content p
+{
+    font-family:Verdana;
+    font-size:11px;
+    color:#666666;
+    line-height:130%;
+}
+
+div.map-content a {
+    text-decoration: none;
+}
+
+*>.map-content
+{
+    width:131px;
+    margin:auto;
+}
+
+#village0 span.head,
+#village1 span.head,
+#village3 span.head,
+#village4 span.head,
+#village2 span.head
+{
+    background-image:none;
+    display:block;
+    font-weight:bold;
+    padding:0px;
+    margin:0px;
+}
+
+#longleat span.head 
+{
+    color:#A09380;
+}
+
+#whinfell span.head 
+{
+    color:#C82C4D;
+}
+
+#sherwood span.head 
+{
+    color:#A7B36B;
+}
+
+#elveden span.head 
+{
+    color:#D19258;
+}
+
+
+/*************** Map Widget **************/
+
+.map_btn_link {
+/*	top: -6px;*/
+	position: relative;
+}
+
+#map-content-container p.pmap_divider {
+	height: 9px;
+	padding: 0px;
+	margin: 0px;
+}

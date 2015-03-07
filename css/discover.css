@@ -1,0 +1,519 @@
+/*=== Helpfull style ===*/
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+    width: 0; height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+.fl-left { float: left; }
+.fl-right { float: right; }
+.inblock {
+    display: inline-block;
+    vertical-align: top;
+}
+/*=== Change common style ===*/
+a{outline:none;border:none;}
+img{border:none;}
+div.map-content p {
+    width: 97px;
+    color: #8c8d87;
+}
+div.map-container ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 9px;
+}
+div#map-content-container {
+    width: 145px;
+}
+div#map-content-container,
+div.map-content {
+    height: 235px;
+}
+div.rounded_6px {
+    background-color: #d5db85 !important;
+}
+.rounded_6px div.inner_divider { background-color: #dee5d4 !important; }
+div.outer {
+    background:  #d5db85 url(/images/discover_SSR/b-map-bkgr.png) top right no-repeat !important;
+}
+div.mk_booking.vertical_tower_wider,
+.mk_booking  div.outer {
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    background: #acb647 url(/images/discover_SSR/pod_graphic.png) top right no-repeat !important;
+}
+div.header_link_text h2 {
+    font-size: 15px !important;
+}
+div.header p, div.header h2 {
+    padding-top: 5px !important;
+    padding-left: 0 !important;
+}
+.making-break .header_link_img img { padding-right: 8px; }
+.mk_booking_inner .startDateDiv img { display: inline !important; }
+/*=== Discovery Overview page ===*/
+.b-overview { height: 140px; }
+.b-overview h2 {
+    font-size: 12px;
+    letter-spacing: -1px;
+    color: #4d663c;
+    margin: 7px 0;
+}
+.b-overview p {
+    font-size: 11px;
+    color: #000;
+}
+/*=== Making break block ===*/
+div.making-break { 
+-webkit-border-bottom-right-radius: 0;
+   -moz-border-bottom-right-radius: 0;
+        border-bottom-right-radius: 0; 
+
+-webkit-border-bottom-left-radius: 0;
+   -moz-border-bottom-left-radius: 0;
+        border-bottom-left-radius: 0; 
+}
+.making-break .rounded_6px:after { 
+    *background-image: none; 
+    *content: ''; 
+}
+.making-break, .making-accomodation, .new-at-cp, .booking-information {
+    position: relative;
+    padding: 10px 10px;
+    width: 727px;
+}
+.making-break, .making-accomodation { margin-bottom: -2px; }
+.making-break {
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.making-accomodation div.header {
+    margin: -20px 0 -10px;
+}
+div.making-accomodation, div.new-at-cp, div.read-our-brochure { background-image: none !important; }
+.outer div.header_link_img { margin: 9px -5px; }
+.outer div.header_link_img a{ text-decoration:none}
+.making-accomodation h2, .txt-new h3{
+    font-size: 12px;
+    letter-spacing: -1px;
+    color: #4d663c;
+    margin: 7px 0 15px;
+}
+.making-break {
+    margin-top: 27px;
+}
+.making-break hr {
+    margin: 0;
+    border: 2px solid #dee5d4;
+    visibility: visible;
+    background-color: #dee5d4;
+}
+.b-new {
+    background: #f8f8f1 url(/images/discover_SSR/bkgr-making-accomodation.png) top right no-repeat;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    height: 135px;
+    position: relative;
+}
+.b-new i {position: absolute; width: 6px; height: 6px; background: url(/images/discover_SSR/b_new_corner.jpg) no-repeat;}
+.b-new i.corner-tl { top:0; left:0; background-position: -2px 0px; }
+.b-new i.corner-tr { top:0; right:0; background-position: -10px 0px; }
+.b-new i.corner-bl { bottom:0; left:0; background-position: -1px -10px;}
+.b-new i.corner-br { bottom:0; right:0; background-position: -10px -10px;z-index: -1;}
+.b-new img { padding: 0 0 0 4px; }
+.txt-new {
+    position: absolute;
+    top: 40px; left: 205px;
+    width: 520px;
+    margin: -20px 0px 0 -10px;
+}
+.html5gallery { height: 412px; }
+/*=== Top Rotator Style ===*/
+.topsliderbtn {
+    display: inline-block;
+    margin: 5px;
+    background: transparent url(/images/discover_SSR/banner_select.png) 0px 0px no-repeat;
+    height: 13px; width: 13px;
+    cursor: pointer;
+    *zoom: 1;
+    *display: inline;
+}
+.topslidebtnwrapper {
+    position: absolute;
+    bottom: 0; right: 0; left: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+.topslidebtnwrapper .active {
+    background: transparent url(/images/discover_SSR/banner_select.png) -16px 0px no-repeat;
+}
+.topslidebtnwrapper a {
+    position: absolute;
+    bottom: 0; right: 0;
+    margin: 7px 20px;
+    cursor: pointer;
+}
+/* Accordion slider style*/
+.accordion_wrap{
+    overflow: hidden;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    height: 230px;
+    padding: 0;
+    background-color: #dfe5d4;
+}
+#accordion {
+    position: relative;
+    height: 230px;
+    font-size: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.accordion {
+    height: 230px; width: 139.2px;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+.slide_content{
+    white-space: normal;
+    background-color: #fff;
+    width: 520px;
+    position: relative;
+}
+.accordion .slide-image {
+    height: 220px;
+    width: 235px;
+    cursor: pointer;
+}
+.accordion .slide-text {
+    position: absolute;
+    top: 0; left: 250px;
+    width: 270px; height: 205px;
+    font-size: 12px;
+}
+p.accordion-slide-title {
+    padding: 190px 0 10px 6px;
+    position: absolute;
+    top: 0; left: 0;
+    width: 138px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.75);
+}
+.slide-image { border: 5px solid #dfe5d4; position: relative; border-width: 5px 5px 5px 0 }
+.slide1 .slide-image { background: url('/images/discover_SSR/activities1.jpg') 0 0 no-repeat; }
+.slide2 .slide-image { background: url('/images/discover_SSR/activities2.jpg') 0 0 no-repeat; }
+.slide3 .slide-image { background: url('/images/discover_SSR/activities3.jpg') 0 0 no-repeat; }
+.slide4 .slide-image { background: url('/images/discover_SSR/activities4.jpg') 0 0 no-repeat; }
+.slide5 .slide-image { background: url('/images/discover_SSR/activities5.jpg') 0 0 no-repeat; }
+
+/* Preschool Images */
+.slide6 .slide-image { background: url('/discover/first_time/images/fun_activities_235x220.jpg') 0 0 no-repeat; }
+.slide7 .slide-image { background: url('/discover/first_time/images/supervised_play_235x220.jpg') 0 0 no-repeat; }
+.slide8 .slide-image { background: url('/discover/first_time/images/splashing_about_235x220.jpg') 0 0 no-repeat; }
+.slide9 .slide-image { background: url('/discover/first_time/images/accommodation_dining_235x220.jpg') 0 0 no-repeat; }
+.slide10 .slide-image { background: url('/discover/first_time/images/restaurants_235x220.jpg') 0 0 no-repeat; }
+
+
+.slide-text h2 {
+    color: #4b6430;
+    font-size: 12px;
+    padding: 0 0px 10px 6px;
+}
+.slide-text p {
+    color: #333;
+    font-size: 11px;
+    padding: 0 6px;
+}
+.slide-text { padding: 10px 0px; }
+.slide-text .b-arrow {
+    position: absolute;
+    bottom: 0; right: 0;
+}
+
+/*=== Horizontal Carousel style ===*/
+.carousel {
+    position: relative;
+    z-index: 10;
+    width: 647px;
+    margin: 7px auto;
+    padding: 0 40px;
+    overflow: hidden;
+    background-color: #dfe5d4;
+}
+.carousel::-moz-selection {
+    background: transparent;
+    color: #fff;
+    text-shadow: none;
+}
+.carousel::selection {
+    background: transparent;
+    color: #fff; 
+    text-shadow: none;
+}
+.carousel-list {
+    width:10000px;
+    position: relative;
+        left: 0px;
+    margin: 0; padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+}
+.slide-wrap {
+    position: relative;
+        top: 0; left: 0;
+    float: left;
+}
+.slide-item {
+    width: 158px;
+    position: relative;
+    margin: 0;
+    padding: 5px 5px 5px 0;
+}
+.slide-title {
+    position: absolute;
+        bottom: 0; left: 0;
+    font-size: 11px;
+    color: #fff;
+    background: url(/images/thingstodo_SSR/thingstodo_rollover.png);
+    width: 150px;
+    margin: 0 0px 5px;
+    padding: 2px 4px 0;
+    text-align: left;
+    height: 30px;
+}
+.navy {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 40px; height: 100%;
+    cursor: pointer;
+    background: #dfe5d4 url(/images/discover_SSR/carousel-arrows.png) no-repeat;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.prev {
+    left: 0;
+    background-position: 5px 54px;
+}
+.next {
+    right: 0;
+    background-position: -25px 54px;
+}
+/*=== Discover New At CP Block ===*/
+div.new-at-cp {
+    margin-top: -20px;
+    margin-bottom: 12px;
+}
+div.new-at-cp div.header h2 { margin: -4px 8px -8px; }
+div.new-at-cp {
+-webkit-border-top-right-radius: 0;
+   -moz-border-top-right-radius: 0;
+        border-top-right-radius: 0; 
+
+-webkit-border-top-left-radius: 0;
+   -moz-border-top-left-radius: 0;
+        border-top-left-radius: 0;
+}
+.new-at-cp .some-class__cn_tr, .new-at-cp .some-class__cn_tl,
+.making-break .some-class__cn_br, .making-break .some-class__cn_bl  {*display: none;}
+/*=== Discover News Block ===*/
+div.b-pplsaying {
+    position: relative; 
+    padding: 0 0 10px; 
+    height: 175px;
+    margin: 0 0 17px;
+}
+.b-pplsaying .header_link_img a {
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 15px;
+}
+.b-pplsaying div.header { margin: 3px 1px -10px 10px; }
+.b-pplsaying #options td{
+    height: 30px;
+    border-top: solid 1px #d5db85;
+    vertical-align: middle;
+}
+.b-pplsaying #options tr:first-child td{
+    border-top: solid 0 #fff;
+}
+.b-pplsaying a.news_item{
+   padding: 0 1px 0 8px;
+}
+/*=== Read Our Brochure Block ===*/
+.read-our-brochure {
+    padding: 0px 10px 9px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    margin:1px 0 17px;
+    *margin-top: 12px;
+}
+.read-our-brochure div.header { padding: 0px !important; *zoom: 1; *margin-bottom: -8px; }
+.read-our-brochure div.header_link_img { margin: 0px; }
+.read-our-brochure hr {
+    margin-top: 0px;
+    border: 1px solid #a2a765;
+    background-color: #a2a765;
+    visibility: visible;
+}
+.read-our-brochure .b-inner {
+    position: relative;
+    padding: 5px;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    color: #373736;
+}
+.read-our-brochure p.b-inner-txt {
+    width: 164px;
+    font-size: 9px;
+}
+.read-our-brochure img.b-inner-img {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.read-our-brochure .social-share {
+    width: 77px;
+    position: relative;
+}
+.read-our-brochure .social-share i {
+    width: 23px; height: 23px;
+    background: url(/images/discover_SSR/social-share.png) no-repeat;
+}
+.read-our-brochure i.yt { background-position: 0 0; }
+.read-our-brochure i.fb { background-position: -25px 0; }
+.read-our-brochure i.tw { background-position: -45px 0; }
+.read-our-brochure .locations{
+    white-space:nowrap;
+    display:table;
+    width:100%;
+}
+.read-our-brochure .locations li {
+    padding: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 9px;
+    white-space:normal;
+    display: table-cell;
+    border-left:solid 1px #fff;
+    border-right:solid 1px #fff;
+}
+.locations li.whinfell { background-color: #a1b262; }
+.locations li.sherwood { background-color: #a2937e; }
+.locations li.elveden  { background-color: #955063; }
+.locations li.longleat { background-color: #d38e53; }
+.locations li.woburn{ background-color: #5262b0; }
+.locations li a {
+    display: block;
+    text-decoration: none;
+    color:#fff;
+}
+.locations li a:hover{
+    text-decoration: underline;
+}
+.read-our-brochure { position: relative; }
+.read-our-brochure i.green-corner-tl,
+.read-our-brochure i.green-corner-tr,
+.read-our-brochure i.green-corner-bl,
+.read-our-brochure i.green-corner-br 
+{ position: absolute; width: 6px; height: 6px; background: url(/images/discover_SSR/discovery_green_corner.jpg) no-repeat; }
+.read-our-brochure i.green-corner-tl {top:0; left:0; background-position: -1px 0px;}
+.read-our-brochure i.green-corner-tr { top:0; right:0; background-position: -5px -1px; }
+.read-our-brochure i.green-corner-bl { bottom:0; left:0; background-position: 0px -5px; }
+.read-our-brochure i.green-corner-br { bottom:0; right:0; background-position: -6px -6px;}
+.read-our-brochure .b-inner i.corner-tl,
+.read-our-brochure .b-inner i.corner-tr,
+.read-our-brochure .b-inner i.corner-bl,
+.read-our-brochure .b-inner i.corner-br
+ {position: absolute; width: 6px; height: 6px; background: url(/images/discover_SSR/b_new_corner.jpg) no-repeat;}
+.read-our-brochure .b-inner i.corner-tl { top:0; left:0; background-position: -2px 0px; }
+.read-our-brochure .b-inner i.corner-tr { top:0; right:0; background-position: -10px 0px; }
+.read-our-brochure .b-inner i.corner-bl { bottom:0; left:0; background-position: -1px -10px;}
+.read-our-brochure .b-inner i.corner-br { bottom:0; right:0; background-position: -10px -10px;}
+/*=== Booking Information Block ===*/
+.booking-information { height: 384px; }
+.booking-information div.header { 
+    font-size: 12px !important; 
+    margin: -8px 0 !important;
+}
+div.header_mk_booking { padding: 0 0 15px 10px !important; }
+div.header_mk_booking h2 {
+    padding-bottom: 2px !important;
+}
+.booking-information-txt {
+    padding: 10px 0;
+    width: 430px;
+}
+.booking-information-txt h3 { font-size: 11px; }
+.booking-information-txt p { padding: 0 0 17px; line-height:14px; }
+div.mk_booking.vertical_tower_wider {
+    width: 275px; height: 391px;
+}
+div.bottom_block { padding-bottom: 24px; *padding-bottom: 57px; }
+/*====================================
+===== Additional Services Module =====
+======================================*/
+/*=== Special Events Block ===*/
+div.special_events, div.pets, div.adapted {
+    margin-bottom: 19px; 
+    background-image: none !important;
+}
+div.special_events { padding: 13px 10px 10px; }
+div.pets, div.adapted { padding: 3px 7px; }
+div.pets h2 p, div.adapted h2 p { font-size: 13px; }
+div.special_events .inner {
+    padding: 5px 5px 100px; 
+    background-color: #f8f9f1 !important;
+}
+div.special_events .header { margin: -4px 0px -10px; }
+.special_events_img { text-align: center; }
+div.special_events .special_events_img img { border-bottom: 5px solid #fffdff; }
+.special_events_img img { border: 3px solid #f8f9f1; }
+div.special_events .inner p,
+div.pets .inner p,
+div.adapted .inner p { 
+    padding: 0 7px 10px; 
+    color: #666;
+}
+.special_events .inner p span { font-weight: bold; }
+.special_events .inner { position: relative; }
+.special_events .inner i {position: absolute; width: 6px; height: 6px; background: url(/images/discover_SSR/b_new_corner.jpg) no-repeat;}
+.special_events .inner i.corner-tl { top:0; left:0; background-position: -2px 0px; }
+.special_events .inner i.corner-tr { top:0; right:0; background-position: -10px 0px; }
+.special_events .inner i.corner-bl { bottom:0; left:0; background-position: -1px -10px;}
+.special_events .inner i.corner-br { bottom:0; right:0; background-position: -10px -10px;}
+
+.adapted, .pets, .special_events { position: relative; }
+.adapted i.green-corner-tl,.adapted i.green-corner-tr,
+.adapted i.green-corner-bl,.adapted i.green-corner-br, 
+.pets i.green-corner-tl,.pets i.green-corner-tr,
+.pets i.green-corner-bl,.pets i.green-corner-br,
+.special_events i.green-corner-tl,.special_events i.green-corner-tr,
+.special_events i.green-corner-bl,.special_events i.green-corner-br 
+{ position: absolute; width: 6px; height: 6px; background: url(/images/discover_SSR/discovery_green_corner.jpg) no-repeat; }
+.adapted i.green-corner-tl, .pets i.green-corner-tl, .special_events i.green-corner-tl {top:0; left:0; background-position: -1px 0px;}
+.adapted i.green-corner-tr, .pets i.green-corner-tr, .special_events i.green-corner-tr { top:0; right:0; background-position: -5px -1px; }
+.adapted i.green-corner-bl, .pets i.green-corner-bl, .special_events i.green-corner-bl { bottom:0; left:0; background-position: 0px -5px; }
+.adapted i.green-corner-br, .pets i.green-corner-br, .special_events i.green-corner-br { bottom:0; right:0; background-position: -6px -6px;}
+#map-content-container p { *margin-top: 3px; }
